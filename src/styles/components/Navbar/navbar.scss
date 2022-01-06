@@ -1,0 +1,16 @@
+.navbar{
+    display: flex;
+    div{
+        padding: 10px 15px;
+        a{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 190%;
+            text-align: center;
+            color: #262626;
+            cursor: pointer;
+        }
+    }
+}

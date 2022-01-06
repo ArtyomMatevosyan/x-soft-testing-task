@@ -1,0 +1,57 @@
+.popularProductsUpperPart{
+    width: 82.96%;
+    height: 177px;
+    margin-left: auto;
+    margin-right: auto;
+    h3{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 130%;
+        letter-spacing: -0.01em;
+        font-feature-settings: 'cpsp' on;
+        color: #262626;
+    }
+    &_content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 40px;
+        &__subtitles{
+            display: flex;
+            :nth-child(1){
+                background: #F1F2F7;
+                border-radius: 2px;
+            }
+        }
+        &__subTitle{
+            padding: 8px 15px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 190%;
+            text-align: center;
+            color: #262626;
+            border-radius: 2px 2px 0px 0px;
+            cursor: pointer;
+        }
+        &__select{
+            width: 191px;
+            background: #F1F2F7;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 2px;
+            padding: 8px 15px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 190%;
+            color: #262626;
+            cursor: pointer;
+        }
+    }
+}

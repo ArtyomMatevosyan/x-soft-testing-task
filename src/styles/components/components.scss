@@ -1,0 +1,24 @@
+// header
+@import './Navbar/navbar.scss';
+@import './HeaderSettings/headerSettings.scss';
+
+// home page
+@import './Home/homePage.scss';
+@import './HomePageHero/homePageHero.scss';
+@import './HomePageHero/homePageHeroSlider.scss';
+@import './PopularProducts/popularProducts.scss';
+@import './PopularProducts/popularProductsUpperPart.scss';
+@import './PopularProducts/popularProductsSlider.scss';
+@import './PopularProducts/popularProductsCard.scss';
+@import './ShopConcern/shopConcern.scss';
+@import './ShopConcern/shopConcernCard.scss';
+@import './OurStory/ourStory.scss';
+@import './OurTrasted/ourTrasted.scss';
+@import './OurTrasted/ourTrastedSliderCard.scss';
+@import './KeyWaysPart/keyWaysPart.scss';
+@import './KeyWaysPart/keyWaysPartCard.scss';
+@import './HomePageCards/homePageCards.scss';
+
+// UI
+@import './UI/Button/button.scss';
+@import './UI/Button/buttonSecondary.scss';

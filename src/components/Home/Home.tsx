@@ -1,10 +1,26 @@
 import Header from '../header/Header'
+import HomePageCards from '../HomePageCards/HomePageCards'
+import HomePageHero from '../HomePageHero/HomePageHero'
+import KeyWaysPart from '../KeyWaysPart/KeyWaysPart'
+import OurStory from '../OurStory/OurStory'
+import OurTrasted from '../OurTrasted/OurTrasted'
+import PopularProducts from '../PopularProducts/PopularProducts'
+import ShopConcern from '../ShopConcern/ShopConcern'
 
 const Home = () => {
-    return(
-        <>
-        <Header></Header>
-        </>
+    return (
+        <div className='home'>
+            <div className='home_content'>
+                <Header></Header>
+                <HomePageHero />
+                <PopularProducts />
+                <ShopConcern />
+                <OurStory />
+                <OurTrasted />
+                <KeyWaysPart />
+                <HomePageCards />
+            </div>
+        </div>
     )
 }
 

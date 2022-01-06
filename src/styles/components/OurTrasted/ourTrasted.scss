@@ -1,0 +1,46 @@
+.ourTrasted{
+    width: 100%;
+    height: 702px;
+    // background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_content{
+        width: 73.75%;
+        height: 62.96%;
+        display: flex;
+        &__guaranteePart{
+            width: 51.5%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            h3{
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 35px;
+                line-height: 130%;
+                text-align: center;
+                letter-spacing: -0.01em;
+                font-feature-settings: 'cpsp' on;
+                color: #262626;
+            }
+            p{
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 190%;
+                text-align: center;
+                color: #262626;
+            }
+        }
+        &__sliderPart{
+            width: 48.5%;
+            height: 100%;
+            background-color: darkgray;
+        }
+    }
+}

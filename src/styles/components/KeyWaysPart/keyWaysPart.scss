@@ -1,0 +1,29 @@
+.keyWaysPart{
+    width: 100%;
+    height: 526px;
+    background: chartreuse;
+    display: flex;
+    justify-content: center;
+    &_content{
+        width: 88.89%;
+        height: 100%;
+        // background: chocolate;
+        &__titlePart{
+            margin-left: 8.5%;
+            p{
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 35px;
+                line-height: 130%;
+                letter-spacing: -0.01em;
+                font-feature-settings: 'cpsp' on;
+                color: #262626;
+            }
+        }
+        &__keys{
+            width: 100%;
+            margin-top: 40px;
+        }
+    }
+}

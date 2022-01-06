@@ -1,0 +1,36 @@
+.hotelSettings{
+    display: flex;
+    .search, .user, .shopping-card{
+        width: 54px;
+        height: 54px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        margin-right: 20px;
+    }
+    .user{
+        border: 1px solid #C5C7D3;
+        border-radius: 2px;
+        margin-right: 30px;
+    }
+    .price{
+        width: 122px;
+        height: 54px;
+        background: #EDF7F7;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 2px 0px 0px 2px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 25px;
+        color: #262626;
+    }
+    .shopping-card{
+        background: #262626;
+        border-radius: 0px 2px 2px 0px;
+    }
+}

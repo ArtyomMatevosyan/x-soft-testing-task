@@ -1,0 +1,28 @@
+.keyWaysCard{
+    width: 300px;
+    height: 163px;
+    display: flex;
+    justify-content: space-between;
+    img{
+        margin-right: 10px;
+    }
+    &_content{
+        &__title{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 35px;
+            font-feature-settings: 'cpsp' on;
+            color: #262626;
+        }
+        &__text{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;    
+            font-size: 16px;
+            line-height: 200%;
+            color: #484C56;
+        }
+    }
+}

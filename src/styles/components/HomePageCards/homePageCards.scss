@@ -1,0 +1,68 @@
+.homePageCards{
+    width: 100%;
+    height: 898px;
+    // background: gold;
+    &_button{
+        width: 100%;
+        height: 53px;
+        background: #067D7B;
+        margin-top: 30px;
+        border-radius: 2px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #FFFFFF;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    &_upperPart{
+        display: flex;
+        align-items: center;
+        &__info{
+            width: 34.375%;
+            height: 214px;
+            // background: cornflowerblue;
+            &--title{
+                margin-top: 10px;
+                margin-bottom: 5px;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 32px;
+                line-height: 130%;
+                letter-spacing: -0.01em;
+                font-feature-settings: 'cpsp' on;
+                color: #262626;
+            }
+            &--text{
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 190%;
+                color: #484C56;                
+            }
+        }
+    }
+    &_downPart{
+        height: 248px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        &__info{
+            width: 24.93%;
+            margin-left: 13.125%;
+            position: absolute;
+            z-index: 5;
+        }
+        &__dogImage{
+            position: absolute;
+            right: 3.89%;
+            // margin-right: 56px;
+        }
+    }
+}
