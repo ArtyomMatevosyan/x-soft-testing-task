@@ -1,3 +1,6 @@
+import BundleAndSave from '../BundleAndSave/BundleAndSave'
+import CommunityPart from '../CommunityPart/CommunityPart'
+import CustomerReviews from '../CustomerReviews/CustomerReviews'
 import Header from '../header/Header'
 import HomePageCards from '../HomePageCards/HomePageCards'
 import HomePageHero from '../HomePageHero/HomePageHero'
@@ -19,6 +22,9 @@ const Home = () => {
                 <OurTrasted />
                 <KeyWaysPart />
                 <HomePageCards />
+                <CustomerReviews />
+                <BundleAndSave />
+                <CommunityPart />
             </div>
         </div>
     )

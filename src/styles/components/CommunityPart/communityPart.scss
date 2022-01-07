@@ -1,0 +1,84 @@
+.communityPart {
+    width: 100%;
+    height: 711px;
+    background: gold;
+    display: flex;
+    justify-content: center;
+
+    &_content {
+        width: 88.89%;
+        height: 100%;
+        background: gray;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        &__titlePart {
+            width: 70.46%;
+            height: 45px;
+            // background: coral;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            &--title {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 35px;
+                line-height: 130%;
+                letter-spacing: -0.01em;
+                font-feature-settings: 'cpsp'on;
+                color: #262626;
+            }
+
+            &--follow {
+                display: flex;
+                p {
+                    margin-left: 18px;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24.1714px;
+                    line-height: 47px;
+                    text-decoration-line: underline;
+                    color: #067D7B;
+                }
+            }
+        }
+        &__images{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+            &--bigImage{
+                width: 48.9%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            &--smallImages{
+                width: 49.90%;
+                display: flex;
+                flex-wrap: wrap;
+                div{
+                    width: 48.99%;
+                    height: 299px;
+                    // margin-left: 28px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                &-img{
+                    // width: 100%;
+                    // height: 100%;
+                    margin-left: 28px;  
+                    // margin-bottom: 28px;
+                }
+            }
+        }
+    }
+}
