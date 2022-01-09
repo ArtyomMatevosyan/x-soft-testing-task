@@ -38,8 +38,9 @@ const HomePageHero = () => {
                         <Button>Buy now</Button>
                     </div>
                     <div>
-                        <img src={HomePageHeroSliderImage} alt='homePageHeroSliderImage' />
-
+                        <img src={HomePageHeroSliderImage} alt='homePageHeroSliderImage' 
+                            className='homePageHero_content__slider--bigImg'
+                        />
                     </div>
                     <div className="homePageHero_content__slider__arrowRight">
                         <img src={RightArrowIcon} alt="rightArrowIcon" />

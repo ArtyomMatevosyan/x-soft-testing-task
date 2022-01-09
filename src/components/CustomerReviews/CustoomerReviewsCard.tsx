@@ -1,5 +1,9 @@
 import StarsIcon from '../../assets/icons/stars.png'
 
+type CustomerReviewsCardProps={
+    
+}
+
 const CustomerReviewsCard = () => {
     return (
         <div className="customerReviewsCard">

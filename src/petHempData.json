@@ -1,0 +1,246 @@
+{
+    "products": [
+        {
+            "title": "CBD Dog Treats + Heart & Immune Care– Blueberry ",
+            "banner": 1,
+            "most_popular": 1,
+            "image": "images/image/image.png",
+            "price": "100$",
+            "description": "some description",
+            "companyName": "Pet Hemp Company",
+            "category": "Dog Treats"
+        },
+        {
+            "title": "CBD Oil for Dogs & CatsCBD Oil for Dogs & Cats",
+            "banner": 0,
+            "most_popular": 1,
+            "image": "images/image/mostPopular_img2.png",
+            "price": "35$",
+            "description": "some description",
+            "companyName": "Pet Hemp Company",
+            "category": "Dog Treats"
+        },
+        {
+            "title": "CBD Oil for Dogs & CatsCBD Oil for Dogs & Cats",
+            "banner": 0,
+            "most_popular": 1,
+            "image": "images/image/mostPopular_img3.png",
+            "price": "35$",
+            "description": "some description",
+            "companyName": "Pet Hemp Company",
+            "category": "Dog Treats"
+        },
+        {
+            "title": "CBD Oil for Dogs & CatsCBD Oil for Dogs & Cats",
+            "banner": 0,
+            "most_popular": 1,
+            "image": "images/image/mostPopular_img4.png",
+            "price": "35$",
+            "description": "some description",
+            "companyName": "Pet Hemp Company",
+            "category": "Dog Treats"
+        },
+        {
+            "title": "CBD Oil for Dogs & CatsCBD Oil for Dogs & Cats",
+            "banner": 0,
+            "most_popular": 1,
+            "image": "images/image/mostPopular_img2.png",
+            "price": "35$",
+            "description": "some description",
+            "companyName": "Pet Hemp Company",
+            "category": "Dog Treats"
+        },
+        {
+            "title": "CBD Oil for Dogs & CatsCBD Oil for Dogs & Cats",
+            "banner": 0,
+            "most_popular": 1,
+            "image": "images/image/mostPopular_img3.png",
+            "price": "23.95 $",
+            "description": "some description",
+            "companyName": "Pet Hemp Company",
+            "category": "Dog Treats"
+        },
+        {
+            "title": "CBD Oil for Dogs & CatsCBD Oil for Dogs & Cats",
+            "banner": 0,
+            "most_popular": 1,
+            "image": "images/image/image.png",
+            "price": "35$",
+            "description": "some description",
+            "companyName": "Pet Hemp Company",
+            "category": "Dog Treats"
+        },
+        {
+            "title": "CBD Oil for Dogs & CatsCBD Oil for Dogs & Cats",
+            "banner": 0,
+            "most_popular": 1,
+            "image": "images/image/mostPopular_img4.png",
+            "price": "35$",
+            "description": "some description",
+            "companyName": "Pet Hemp Company",
+            "category": "CBD Capsules"
+        },
+        {
+            "title": "CBD Oil for Dogs & CatsCBD Oil for Dogs & Cats",
+            "banner": 0,
+            "most_popular": 1,
+            "image": "images/image/mostPopular_img2.png",
+            "price": "35$",
+            "description": "some description",
+            "companyName": "Pet Hemp Company",
+            "category": "CBD Capsules"
+        }
+    ],
+    "shopByConcern": [
+        {
+            "id": 1,
+            "title": "Relief",
+            "image": "images/icons/relief.svg"
+        },
+        {
+            "id": 2,
+            "title": "Mobility",
+            "image": "images/icons/mobility-icon.svg"
+        },
+        {
+            "id": 3,
+            "title": "Calm",
+            "image": "images/icons/calm-icon.svg"
+        },
+        {
+            "id": 4,
+            "title": "Wellness",
+            "image": "images/icons/wellness-icon.svg"
+        }
+    ],
+    "keyWays": [
+        {
+            "id": 0,
+            "title": "Cancer & Tumors",
+            "description": "Cancer Treatment and Chemotherapy has many side effects that can be reduced with Pet Hemp CBD.",
+            "image": "images/icons/ribbon.svg"
+        },
+        {
+            "id": 1,
+            "title": "Joints & Mobility",
+            "description": "Pet immobility is heartbreaking/ Pet Hemp CBD helps with limping, arthritis, joint disease, Hip Dysplasia, pain and inflammatory.",
+            "image": "images/icons/mobility_icon2.svg"
+        },
+        {
+            "id": 2,
+            "title": "Seizures & Epilepsy",
+            "description": "Pet Hemp CBD can reduce epileptic seizures, convulsions and other neurological disorders.",
+            "image": "images/icons/brain.svg"
+        },
+        {
+            "id": 3,
+            "title": "Stress & Anxiety",
+            "description": "Phobias, stress and anxiety caused by loud noise or separation anxiety can be remedied with Pet Hemp CBD.",
+            "image": "images/icons/cloud-lightning.svg"
+        },
+        {
+            "id": 4,
+            "title": "Digestive & Nausea",
+            "description": "CBD can improve problems such as nausea, acute digestive problems with vomiting and diarrhea.",
+            "image": "images/icons/stomach.svg"
+        },
+        {
+            "id": 5,
+            "title": "Aging & Wellness",
+            "description": "Pet Hemp can improve Quality of Life in aging pets and build immune system for long term wellness.",
+            "image": "images/icons/heart.svg"
+        },
+        {
+            "id": 6,
+            "title": "Skin & Allergies",
+            "description": "Skin diseases and skin allergies can cause a variety of issues including odor, sores, excessive itching, chewing and hair loss.",
+            "image": "images/icons/allergies.svg"
+        },
+        {
+            "id": 7,
+            "title": "Pain & Inflammation",
+            "description": "Pet pain can be caused by Swelling, Arthritis, Pancreatitis, Bronchitis, & and other ailments.2",
+            "image": "images/icons/zap.svg"
+        }
+    ],
+    "reviews": [
+        {
+            "id": 0,
+            "title": "Great for my dog",
+            "description": "Thus product seems to work well though we have only gone through one bottle.",
+            "video": "",
+            "auther": "Nichole P.",
+            "name": "CBD Oil for Dogs & Cats"
+        },
+        {
+            "id": 1,
+            "title": "Great for my dog",
+            "description": "Thus product seems to work well though we have only gone through one bottle.",
+            "video": "",
+            "auther": "Nichole P.",
+            "name": "CBD Oil for Dogs & Cats"
+        },
+        {
+            "id": 2,
+            "title": "Great for my dog",
+            "description": "Thus product seems to work well though we have only gone through one bottle.",
+            "video": "",
+            "auther": "Nichole P.",
+            "name": "CBD Oil for Dogs & Cats"
+        },
+        {
+            "id": 3,
+            "title": "Great for my dog",
+            "description": "Thus product seems to work well though we have only gone through one bottle.",
+            "video": "",
+            "auther": "Nichole P.",
+            "name": "CBD Oil for Dogs & Cats"
+        },
+        {
+            "id": 4,
+            "title": "Great for my dog",
+            "description": "Thus product seems to work well though we have only gone through one bottle.",
+            "video": "",
+            "auther": "Nichole P.",
+            "name": "CBD Oil for Dogs & Cats"
+        }
+    ],
+    "bundleAndSave": [
+        {
+            "id": 0,
+            "title": "CBD Dog Treats + CBD Dog Treats",
+            "company": "Pet Hemp Company",
+            "image": "/images/image/bundle_img1.png",
+            "oldPrice": "$ 39.95",
+            "newPrice": "$ 29.95",
+            "sale": "-20%"
+        },
+        {
+            "id": 1,
+            "title": "CBD Dog Treats + CBD Dog Treats",
+            "company": "Pet Hemp Company",
+            "image": "/images/image/bundle_img2.png",
+            "oldPrice": "$ 39.95",
+            "newPrice": "$ 29.95",
+            "sale": "-20%"
+        },
+        {
+            "id": 2,
+            "title": "CBD Dog Treats + CBD Dog Treats",
+            "company": "Pet Hemp Company",
+            "image": "/images/image/bundle_img3.png",
+            "oldPrice": "$ 39.95",
+            "newPrice": "$ 29.95",
+            "sale": "-20%"
+        },
+        {
+            "id": 0,
+            "title": "CBD Dog Treats + CBD Dog Treats",
+            "company": "Pet Hemp Company",
+            "image": "/images/image/bundle_img1.png",
+            "oldPrice": "$ 39.95",
+            "newPrice": "$ 29.95",
+            "sale": "-20%"
+        }
+    ]
+}

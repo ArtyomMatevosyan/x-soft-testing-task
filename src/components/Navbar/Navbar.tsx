@@ -7,7 +7,6 @@ const Navbar = () => {
             <div>
                 <a>Shop by Animal</a>
             </div>
-
             <div>
                 <a>About</a>
             </div>

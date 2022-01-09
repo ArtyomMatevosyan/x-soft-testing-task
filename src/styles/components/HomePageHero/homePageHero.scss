@@ -61,3 +61,15 @@
         }
     }
 }
+
+@media (max-width: 1020px){
+    .homePageHero_content__slider{
+        &--bigImg{
+            width: 70%;
+            height: 70%;
+        }
+        &__arrowLeft, &__arrowRight{
+            display: none;
+        }
+    }
+}

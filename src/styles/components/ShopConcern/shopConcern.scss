@@ -1,7 +1,7 @@
 .shopConcern{
     width: 100%;
     height: 492px; 
-    // background: gold;
+    background: gold;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,6 +20,27 @@
             letter-spacing: -0.01em;
             font-feature-settings: 'cpsp' on;
             color: #262626;
+        }
+        &__cards{
+            width: 100%;
+            height: 100%;
+            background-color: blueviolet;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+@media (max-width: 840px){
+    .shopConcern{
+        align-items: flex-start;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        // height: 637px;
+        &_content{
+            &__cards{
+                flex-wrap: wrap;
+            }
         }
     }
 }

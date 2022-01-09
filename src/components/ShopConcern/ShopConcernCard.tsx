@@ -1,12 +1,17 @@
-import ReliefIcon from '../../assets/icons/relief.svg'
+import { FC } from 'react';
 
-const ShopConcernCard = () => {
-    return(
+type ShopConcernCardProps = {
+    title: string,
+    image: any
+}
+
+const ShopConcernCard: FC<ShopConcernCardProps> = ({title, image}) => {
+    return (
         <div className="cards">
             <div className="cards_img">
-                <img src={ReliefIcon} alt="reliefIcon" />
+                <img src={image} alt="reliefIcon" />
             </div>
-            <p className="cards_title">Relief</p>
+            <p className="cards_title">{title}</p>
         </div>
     )
 }

@@ -1,14 +1,20 @@
-import RibbonIcon from '../../assets/icons/ribbon.svg'
+import { FC } from 'react';
 
-const KeyWaysPartCard = () => {
+type KeyWaysPartCardProps = {
+    title: string,
+    description: string,
+    image: string
+}
+
+const KeyWaysPartCard: FC<KeyWaysPartCardProps> = ({title,description,image}) => {
     return (
         <div className="keyWaysCard">
             <div>
-                <img src={RibbonIcon} alt="ribbonIcon" />
+                <img src={image} alt="ribbonIcon" />
             </div>
             <div className='keyWaysCard_content'>
-                <p className='keyWaysCard_content__title'>Cancer & Tumors</p>
-                <p className='keyWaysCard_content__text'>Cancer Treatment and Chemotherapy has many side effects that can be reduced with Pet Hemp CBD.</p>
+                <p className='keyWaysCard_content__title'>{title}</p>
+                <p className='keyWaysCard_content__text'>{description}</p>
             </div>
         </div>
     )

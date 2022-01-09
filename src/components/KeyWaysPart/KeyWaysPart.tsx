@@ -1,14 +1,18 @@
 import KeyWaysPartCard from "./KeyWaysPartCard";
+import petHempData from '../../petHempData.json';
 
 const KeyWaysPart = () => {
-    return(
+    const { keyWays } = petHempData;
+    return (
         <div className="keyWaysPart">
             <div className="keyWaysPart_content">
                 <div className="keyWaysPart_content__titlePart">
                     <p>Key Ways That CBD Can Help</p>
                 </div>
                 <div className="keyWaysPart_content__keys">
-                    <KeyWaysPartCard />
+                    {keyWays.map(({ title, image, description }) => (
+                        <KeyWaysPartCard title={title} image={image} description={description} />
+                    ))}
                 </div>
             </div>
         </div>
