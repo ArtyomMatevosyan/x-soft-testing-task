@@ -1,6 +1,7 @@
 .homePageCards{
     width: 100%;
-    height: 898px;
+    padding-bottom: 100px;
+    // height: 898px;
     // background: gold;
     &_button{
         width: 100%;
@@ -22,6 +23,12 @@
     &_upperPart{
         display: flex;
         align-items: center;
+        &__catImage{
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
         &__info{
             width: 34.375%;
             height: 214px;
@@ -49,20 +56,106 @@
         }
     }
     &_downPart{
-        height: 248px;
+        // height: 248px;
         display: flex;
         justify-content: space-between;
         position: relative;
         &__info{
             width: 24.93%;
             margin-left: 13.125%;
-            position: absolute;
+            // position: absolute;
             z-index: 5;
         }
         &__dogImage{
-            position: absolute;
-            right: 3.89%;
+            // position: absolute;
+            // right: 3.89%;
+            // width: 100%;
+            // height: 100%;
             // margin-right: 56px;
+        }
+        &__dogImageDiv{
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: 1300px){
+    .homePageCards{
+        &_upperPart{
+            &__catImage{
+                width: 59.23%;
+            }
+        }
+        &_downPart{
+            &__dogImageDiv{
+                width: 62.5%;
+                img{
+                    width: 685px;
+                    height: 330px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1010px){
+    .homePageCards{
+        &_downPart{
+            margin-top: 50px;
+            &__info{
+                width: 43%;
+            }
+            &__dogImageDiv{
+                width: 50.5%;
+                img{
+                    width: 451px;
+                    height: 246px;
+                    // margin-right: -70px;
+                    // right: -60px;
+                    // top: 40px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 720px){
+    .homePageCards{
+        &_upperPart{
+            flex-direction: column;
+            &__catImage{
+                width: 100%;
+            }
+            &__info{
+                width: 86%;
+                height: auto;
+                &--title{
+                    font-size: 26px;
+                }
+                &--text{
+                    font-size: 15px;
+                }
+            }
+        }   
+        &_downPart{
+            flex-direction: column-reverse;
+
+            margin-top: 50px;
+            &__info{
+                width: 86%;
+                margin-left: 6.5%;
+            }
+            &__dogImageDiv{
+                width: 100%;
+                img{
+                    width: 100%;
+                    height: 45%;
+                    // height: 246px;
+                    // right: -60px;
+                    // top: 40px;
+                }
+            }
         }
     }
 }

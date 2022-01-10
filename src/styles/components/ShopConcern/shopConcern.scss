@@ -1,7 +1,7 @@
 .shopConcern{
     width: 100%;
     height: 492px; 
-    background: gold;
+    // background: gold;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,7 +24,7 @@
         &__cards{
             width: 100%;
             height: 100%;
-            background-color: blueviolet;
+            // background-color: blueviolet;
             display: flex;
             justify-content: space-between;
         }
@@ -36,10 +36,21 @@
         align-items: flex-start;
         margin-top: 100px;
         margin-bottom: 100px;
-        // height: 637px;
         &_content{
+            h3{
+                margin-left: 0;
+            }
             &__cards{
                 flex-wrap: wrap;
+            }
+        }
+    }
+}
+@media (max-width: 600px){
+    .shopConcern{
+        &_content{
+            h3{
+                font-size: 28px;
             }
         }
     }

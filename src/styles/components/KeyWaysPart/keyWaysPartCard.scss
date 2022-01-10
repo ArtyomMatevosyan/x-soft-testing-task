@@ -35,3 +35,17 @@
         justify-content: flex-start;
     }
 }
+
+@media (max-width: 465px){
+    .keyWaysCard{
+        width: 100%;
+        &_content{
+            &__title{
+                font-size: 20px;
+            }
+            &__text{
+                font-size: 13px;
+            }
+        }
+    }
+}

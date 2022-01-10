@@ -12,3 +12,10 @@
     outline: none;
     cursor: pointer;
 }
+@media (max-width: 780px){
+    .buttonSecondary{
+        padding: 10px 25.57px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+}

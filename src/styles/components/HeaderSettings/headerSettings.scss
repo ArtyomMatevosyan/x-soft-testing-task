@@ -53,3 +53,24 @@
         }
     }
 }
+
+@media (max-width: 610px){
+    .hotelSettings{
+        .price{
+            width: 83px;
+            height: 40px;
+            font-size: 12px;
+            line-height: 25px;
+        }
+        .shopping-card{
+            width: 40px;
+            height: 40px;
+        }
+        .user, .search{
+            display: none;
+        }
+        .burger_menu{
+            margin-top: 4px;
+        }
+    }
+}

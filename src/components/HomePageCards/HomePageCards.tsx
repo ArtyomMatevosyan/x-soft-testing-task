@@ -8,7 +8,7 @@ const HomePageCards = () => {
     return (
         <div className="homePageCards">
             <div className="homePageCards_upperPart">
-                <div>
+                <div className="homePageCards_upperPart__catImage">
                     <img src={CatImage} alt="catImage" />
                 </div>
                 <div className='homePageCards_upperPart__info'>
@@ -30,7 +30,7 @@ const HomePageCards = () => {
                         Please learn more here. </p>
                     <button className='homePageCards_button'>learn more</button>
                 </div>
-                <div>
+                <div className="homePageCards_downPart__dogImageDiv">
                     <img src={DogImage} alt="dogImage" className='homePageCards_downPart__dogImage' />
                 </div>
             </div>

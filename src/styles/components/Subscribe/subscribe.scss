@@ -45,7 +45,7 @@
                 justify-content: space-between;
                 input{
                     width: 57.02%;
-                    height: 100%;
+                    height: 96%;
                     border: none;
                     outline: none;
                     background: #067D7B;
@@ -67,6 +67,102 @@
                         color: #FFFFFF;
                     }                  
                 }
+            }
+        }
+    }
+}
+
+@media (max-width: 1220px){
+    .subscribe{
+        &_content{
+            img{
+                margin-left: -100px;
+            }
+            &__info{
+                width: 450px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1045px){
+    .subscribe{
+        margin-top: 144px;
+        height: auto;
+        &_content{
+            height: 214px;
+            img{
+                width: 377px;
+                height: 239px;
+                margin-left: -60px;
+                margin-top: -44px;
+            }
+            &__info{
+                width: 450px;
+                margin-left: 10px;
+                &--title{
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}
+@media(max-width: 780px){
+    .subscribe{
+        &_content{
+
+            &__info{
+                width: 388px;
+                &--emailPart{
+                    input{
+                        width: 46%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 720px){
+    .subscribe{
+        &_content{
+            img{
+                display: none;
+            }
+            &__info{
+                width: 95%;
+                &--emailPart{
+                    input{
+                        width: 67%;
+                    }
+                }
+                &--title{
+                    font-size: 26px;
+                    line-height: 130%;  
+                }
+                &--subtitle{
+                    font-size: 18px;
+                    line-height: 150%;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 650px){
+    .subscribe_content__info--emailPart input{
+        width: 56%;
+    }
+}
+
+@media (max-width: 490px){
+    .subscribe_content__info{
+        &--title{
+            margin-top: 20px;
+        }
+        &--emailPart{
+            margin-top: 20px;
+            input{
+                width: 43%;
             }
         }
     }

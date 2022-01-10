@@ -1,6 +1,5 @@
 .keyWaysPart{
     width: 100%;
-    // height: 526px;
     background: chartreuse;
     display: flex;
     justify-content: center;
@@ -26,6 +25,28 @@
             margin-top: 40px;
             display: flex;
             flex-wrap: wrap;
+        }
+    }
+}
+@media(max-width: 1020px){
+    .keyWaysPart{
+            &_content{
+            &__titlePart{
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+@media(max-width: 700px){
+    .keyWaysPart{
+            &_content{
+            &__titlePart{
+                p{
+                    font-size: 28px;
+                    line-height: 130%;
+                }
+            }
         }
     }
 }

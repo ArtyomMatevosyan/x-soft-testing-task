@@ -1,6 +1,6 @@
 .button{
     background: #067D7B;
-    padding: 17px 44px 17px 44px;
+    padding: 17px 44px;
     border-radius: 2px;
     font-family: Roboto;
     font-style: normal;
@@ -12,4 +12,12 @@
     outline: none;
     border: none;
     cursor: pointer;
+}
+
+@media (max-width: 780px){
+    .button{
+        padding: 10px 26.35px;
+        font-size: 16px;
+        line-height: 19px;
+    }
 }

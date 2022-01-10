@@ -13,6 +13,11 @@
         display: flex;
         justify-content: space-between;
         background: white;
+        &__leftPart{
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+        }
         &--subtitle{
             font-family: Roboto;
             font-style: normal;
@@ -31,7 +36,7 @@
             color: #262626;            
         }
         &__info{
-            width: 23.35%;
+            width: 54.35%;
             height: 100%;
             // background: cadetblue;   
             font-family: Roboto;
@@ -54,7 +59,7 @@
             }
         }
         &__contacts{
-            width: 23.35%;
+            width: 41.35%;
             height: 100%;
             // background: green;
             display: flex;
@@ -84,6 +89,99 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+        }
+    }
+}
+
+@media(max-width: 1220px){
+    .footer{
+        &_content{
+            width: 100%;
+            justify-content: space-around;
+            &__info{
+                width: 55%;
+            }
+            &__policy{
+                margin-right: 0;
+            }
+        }
+    }
+}
+@media (max-width: 930px){
+    .footer{
+        height: 599px;
+        &_content{
+            flex-direction: column;
+            &__leftPart{
+                width: 90%;
+                margin-left: 40px;
+            }
+            &__contacts{
+                width: 35%;
+            }
+            &__products{
+                width: 75%;
+                height: 35px;
+                flex-direction: row;
+                margin-left: 40px;
+                margin-top: 50px;
+                :nth-child(1){
+                    display: none;
+                }
+            }
+            &__policy{
+                width: 90%;
+                height: 35px;
+                flex-direction: row;
+                margin-left: 40px;
+                :nth-child(1){
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 720px){
+    .footer{
+        &_content{
+            &__leftPart{
+                flex-direction: column;
+            }
+            &__info{
+                width: 90%;
+                &--companyName{
+                    margin-top: 10px;
+                }
+                &--cards{
+                    margin-top: 20px;
+                }
+                &--aboutCompany{
+                    margin-top: 20px;
+                }
+            }
+            &__contacts{
+                width: 60%;
+                margin-top: 30px;
+            }
+            &__products{
+                flex-direction: column;
+                margin-top: 30px;
+            }
+            &__policy{
+                flex-direction: column;
+                margin-left: 40%;
+                margin-top: -35px;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px){
+    .footer{
+        height: auto ;
+        &_content__policy{
+            margin-left: 55%;
         }
     }
 }
