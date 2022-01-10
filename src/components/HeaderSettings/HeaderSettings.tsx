@@ -1,10 +1,13 @@
 import { FC, useState } from 'react';
+import HamburgerMenu from 'react-hamburger-menu';
 import SearchIcon from '../../assets/icons/search.svg';
 import UserIcon from '../../assets/icons/user.svg';
 import ShoppingIcon from '../../assets/icons/shopping-cart.svg';
 
 const HeaderSettings: FC = () => {
-    const [isOpenBurgerMenu, setIsOpenBurgerMenu] = useState<boolean>(false)
+
+    const [isOpenBurgerMenu, setIsOpenBurgerMenu] = useState<boolean>(true)
+    
     return (
         <div className='hotelSettings'>
             <div className="search">
@@ -20,11 +23,15 @@ const HeaderSettings: FC = () => {
                 <img src={ShoppingIcon} alt="shopping-cart" />
             </div>
             <div
-                className={isOpenBurgerMenu ? 'is-active burger_menu' : 'burger_menu'}
+                className='burger_menu'
                 onClick={() => (setIsOpenBurgerMenu(!isOpenBurgerMenu))}>
-                <span className="line"></span>
-                <span className="line"></span>
-                <span className="line"></span>
+                <HamburgerMenu
+                    isOpen={isOpenBurgerMenu}
+                    color='#000'
+                    menuClicked={() => setIsOpenBurgerMenu(!isOpenBurgerMenu)}
+                    width={40}
+                    height={30}
+                />
             </div>
         </div>
     )

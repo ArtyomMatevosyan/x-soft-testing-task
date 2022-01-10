@@ -1,6 +1,6 @@
 .keyWaysCard{
     width: 300px;
-    height: 163px;
+    // height: 163px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
@@ -25,5 +25,13 @@
             line-height: 200%;
             color: #484C56;
         }
+    }
+}
+
+@media (max-width: 1020px){
+    .keyWaysCard{
+        width: 205px;
+        flex-direction: column;
+        justify-content: flex-start;
     }
 }

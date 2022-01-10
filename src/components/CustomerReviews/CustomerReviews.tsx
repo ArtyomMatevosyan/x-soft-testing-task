@@ -1,6 +1,8 @@
 import CustomerReviewsCard from "./CustoomerReviewsCard";
 import petHempData from '../../petHempData.json'
 import Slider from "react-slick";
+import { ReactComponent as SliderArrowLeft } from '../../assets/icons/sliderArrow_left.svg';
+import { ReactComponent as SliderArrowRight } from '../../assets/icons/sliderArrow_right.svg';
 
 const CustomerReviews = () => {
     const settings = {
@@ -9,7 +11,9 @@ const CustomerReviews = () => {
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 3,
-        variableWidth: true
+        variableWidth: true,
+        prevArrow: <SliderArrowLeft />,
+        nextArrow: <SliderArrowRight />,
     };
     const { reviews } = petHempData
     return (
@@ -21,7 +25,6 @@ const CustomerReviews = () => {
                 <div className="customerReviews_content__sliderPart">
                     <Slider {...settings}>
                         {reviews.map(() => (
-
                             <CustomerReviewsCard />
                         ))}
                     </Slider>

@@ -1,6 +1,9 @@
-.hotelSettings{
+.hotelSettings {
     display: flex;
-    .search, .user, .shopping-card{
+
+    .search,
+    .user,
+    .shopping-card {
         width: 54px;
         height: 54px;
         display: flex;
@@ -9,12 +12,14 @@
         box-sizing: border-box;
         margin-right: 20px;
     }
-    .user{
+
+    .user {
         border: 1px solid #C5C7D3;
         border-radius: 2px;
         margin-right: 30px;
     }
-    .price{
+
+    .price {
         width: 122px;
         height: 54px;
         background: #EDF7F7;
@@ -29,41 +34,22 @@
         line-height: 25px;
         color: #262626;
     }
-    .shopping-card{
+
+    .shopping-card {
         background: #262626;
         border-radius: 0px 2px 2px 0px;
     }
-    .burger_menu{
-        visibility: hidden;
-        .line{
-            width: 40px;
-            height: 4px;
-            background-color: black;
-            display: block;
-            margin: 8px auto;
-            -webkit-transition: all 0.3s ease-in-out;
-            -o-transition: all 0.3s ease-in-out;
-            transition: all 0.3s ease-in-out;
-          }
-        .burger_menu .is-active .line:nth-child(2){
-            opacity: 0;
-          }
-          .burger_menu .is-active .line:nth-child(1){
-            -webkit-transform: translateY(13px) rotate(45deg);
-            -ms-transform: translateY(13px) rotate(45deg);
-            -o-transform: translateY(13px) rotate(45deg);
-            transform: translateY(13px) rotate(45deg);
-          }
-          .burger_menu .is-active .line:nth-child(3){
-            -webkit-transform: translateY(-13px) rotate(-45deg);
-            -ms-transform: translateY(-13px) rotate(-45deg);
-            -o-transform: translateY(-13px) rotate(-45deg);
-            transform: translateY(-13px) rotate(-45deg);
-          }
+
+    .burger_menu {
+        display: none;
+        margin-top: 12px;
     }
 }
-@media (max-width: 1190px){
-    .burger_menu{
-        visibility: visible;
+
+@media (max-width: 1190px) {
+    .hotelSettings {
+        .burger_menu {
+            display: flex;
+        }
     }
 }

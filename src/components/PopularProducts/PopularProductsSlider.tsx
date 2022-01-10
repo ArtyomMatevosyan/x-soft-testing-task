@@ -1,6 +1,8 @@
 import PopularProductsCard from "./PopularProductsCard";
 import petHempData from '../../petHempData.json'
 import Slider from "react-slick";
+import { ReactComponent as SliderArrowLeft } from '../../assets/icons/sliderArrow_left.svg'
+import { ReactComponent as SliderArrowRight } from '../../assets/icons/sliderArrow_right.svg'
 
 
 const PopularProductsSlider = () => {
@@ -13,6 +15,8 @@ const PopularProductsSlider = () => {
         slidesToShow: 4,
         slidesToScroll: 4,
         initialSlide: 0,
+        prevArrow: <SliderArrowLeft />,
+        nextArrow: <SliderArrowRight />,
         responsive: [
             {
                 breakpoint: 1024,
@@ -42,14 +46,14 @@ const PopularProductsSlider = () => {
     };
     return (
         <div className="popularProductsSlider">
-
             <Slider {...settings}>
-                {products.map(({ image, title, price, companyName }) => (
+                {products.map(({ image, title, price, companyName }, index) => (
                     <PopularProductsCard
                         image={image}
                         title={title}
                         companyName={companyName}
                         price={price}
+                        key={index}
                     />
                 ))}
             </Slider>
