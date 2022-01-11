@@ -2,7 +2,7 @@ import { FC } from 'react';
 
 type ShopConcernCardProps = {
     title: string,
-    image: any
+    image: string,
 }
 
 const ShopConcernCard: FC<ShopConcernCardProps> = ({ title, image }) => {

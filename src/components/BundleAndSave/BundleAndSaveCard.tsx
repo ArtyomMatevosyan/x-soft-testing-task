@@ -1,5 +1,4 @@
 import { FC } from 'react';
-import BundleCardImage from '../../assets/images/BundlesCard.png'
 
 type BundleAndSaveCardProps = {
     title: string,

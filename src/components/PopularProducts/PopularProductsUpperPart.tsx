@@ -10,8 +10,8 @@ const PopularProductsUpperPart = () => {
                     <div className="popularProductsUpperPart_content__subTitle">Cat Treats</div>
                     <div className="popularProductsUpperPart_content__subTitle">CBD Tinctures</div>
                     <div className="popularProductsUpperPart_content__subTitle">CBD Capsules</div>
-                    <span className='popularProductsUpperPart_content__subtitles--foggyDiv'></span>
                 </div>
+                <span className='popularProductsUpperPart_content__subtitles--foggyDiv'></span> 
                 <div className="popularProductsUpperPart_content__select">
                     <span>Type of Pet</span>
                     <span>

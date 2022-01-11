@@ -1,7 +1,6 @@
 .shopConcern{
     width: 100%;
     height: 492px; 
-    // background: gold;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,7 +8,6 @@
     &_content{
         width: 88.89%;
         height: 260px;
-        // background: darkcyan;
         h3{
             margin-left: 8.51%;
             font-family: Montserrat;
@@ -24,7 +22,6 @@
         &__cards{
             width: 100%;
             height: 100%;
-            // background-color: blueviolet;
             display: flex;
             justify-content: space-between;
         }
