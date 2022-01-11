@@ -19,7 +19,7 @@ const PopularProductsSlider = () => {
         nextArrow: <SliderArrowRight />,
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 1150,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 3,
@@ -35,13 +35,13 @@ const PopularProductsSlider = () => {
                     initialSlide: 2
                 }
             },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
+            // {
+            //     breakpoint: 350,
+            //     settings: {
+            //         slidesToShow: 1,
+            //         slidesToScroll: 1
+            //     }
+            // }
         ]
     };
     return (

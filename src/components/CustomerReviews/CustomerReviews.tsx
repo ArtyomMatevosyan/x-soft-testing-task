@@ -14,6 +14,26 @@ const CustomerReviews = () => {
         variableWidth: true,
         prevArrow: <SliderArrowLeft />,
         nextArrow: <SliderArrowRight />,
+        responsive: [
+            {
+                breakpoint: 820,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 550,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+        ]
     };
     const { reviews } = petHempData
     return (
@@ -24,8 +44,15 @@ const CustomerReviews = () => {
                 </div>
                 <div className="customerReviews_content__sliderPart">
                     <Slider {...settings}>
-                        {reviews.map(() => (
-                            <CustomerReviewsCard />
+                        {reviews.map(({ video, name, auther, title, description }, index) => (
+                            <CustomerReviewsCard
+                                video={video}
+                                name={name}
+                                auther={auther}
+                                title={title}
+                                description={description}
+                                key={index}
+                            />
                         ))}
                     </Slider>
                 </div>

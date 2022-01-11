@@ -4,7 +4,7 @@
     &_imgPart{
         width: 100%;
         height: 344px;
-        background: yellow;
+        // background: yellow;
     }
     h4{
         margin-top: 20px;
@@ -36,5 +36,42 @@
         letter-spacing: -0.01em;
         font-feature-settings: 'cpsp' on;
         color: #262626;
+    }
+}
+
+@media (max-width: 1020px){
+    .card{
+        width: 210px;
+        height: 411px;
+        &_imgPart{
+            height: 205px;
+            img{
+                height: 100%;
+                width: 100%;
+            } 
+        }
+    }
+}
+
+@media (max-width: 740px){
+    .card{
+        width: 155px;
+        height: 357px;
+        &_imgPart{
+            height: 150px;
+            img{
+                height: 100%;
+                width: 100%;
+            } 
+        }
+        h4{
+            font-size: 18px;
+        }
+        &_companyName{
+            font-size: 13px;
+        }
+        &_price{
+            font-size: 20px 
+        }
     }
 }

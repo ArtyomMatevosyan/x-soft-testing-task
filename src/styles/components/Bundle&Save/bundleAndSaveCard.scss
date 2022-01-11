@@ -1,11 +1,13 @@
 .bundleAndSaveCard {
     // width: 31.95%;
-    height: 566px;
+    // height: 566px;
     margin-right: 27px;
+
     // background: cornflowerblue;
     &_imgPart {
         background: #E3F2F2;
-        img{
+
+        img {
             width: 93%;
             height: 96%;
         }
@@ -77,6 +79,40 @@
                 font-size: 16px;
                 line-height: 200%;
                 color: #FFFFFF;
+            }
+        }
+    }
+}
+
+@media (max-width: 430px) {
+    .bundleAndSaveCard {
+        &_content {
+            &__title {
+                font-size: 18px;
+                line-height: 150%;
+            }
+
+            &__company {
+                font-size: 12px;
+                line-height: 25px;
+            }
+
+            &__prices {
+                &--price {
+                    :nth-child(1) {
+                        font-size: 18px;
+                        line-height: 32px;
+                    }
+
+                    :nth-child(2) {
+                        font-size: 18px;
+                        line-height: 32px;
+                    }
+                }
+
+                &--sale {
+                    width: 68px
+                }
             }
         }
     }
