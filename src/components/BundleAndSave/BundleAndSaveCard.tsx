@@ -1,25 +1,35 @@
+import { FC } from 'react';
 import BundleCardImage from '../../assets/images/BundlesCard.png'
 
-const BundleAndSaveCard = () => {
+type BundleAndSaveCardProps = {
+    title: string,
+    company: string,
+    image: string,
+    oldPrice: string,
+    newPrice: string,
+    sale: string
+}
+
+const BundleAndSaveCard: FC<BundleAndSaveCardProps> = ({ image, title, company, oldPrice, newPrice, sale }) => {
     return (
         <div className="bundleAndSaveCard">
             <div className="bundleAndSaveCard_imgPart">
-                <img src={BundleCardImage} alt="bundleCardImage" />
+                <img src={image} alt="" />
             </div>
             <div className="bundleAndSaveCard_content">
                 <div className="bundleAndSaveCard_content__title">
-                    <p>CBD Dog Treats + CBD Dog Treats</p>
+                    <p>{title}</p>
                 </div>
                 <div className="bundleAndSaveCard_content__company">
-                    <p>Pet Hemp Company</p>
+                    <p>{company}</p>
                 </div>
                 <div className="bundleAndSaveCard_content__prices">
                     <div className="bundleAndSaveCard_content__prices--price">
-                        <p>$ 39.95</p>
-                        <p>Only $ 29.95</p>
+                        <p>{oldPrice}</p>
+                        <p>Only {newPrice}</p>
                     </div>
                     <div className="bundleAndSaveCard_content__prices--sale">
-                        <p>-20%</p>
+                        <p>{sale}</p>
                     </div>
                 </div>
             </div>

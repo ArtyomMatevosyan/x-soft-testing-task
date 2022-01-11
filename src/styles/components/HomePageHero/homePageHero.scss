@@ -1,17 +1,22 @@
-.homePageHero{
+.homePageHero {
     width: 100%;
     height: 648px;
-    background: #C4C4C4;
-    &_content{
+
+    &_content {
         width: 88.82%;
-        margin: 0 66px 0 95px;
-        &__slider{
+        background: #E3F2F2;
+        padding-left: 66px;
+        padding-right: 95px;
+
+        &__slider {
             height: 438px;
             display: flex;
             align-items: center;
             justify-content: space-between;
             height: 100%;
-            &__arrowLeft, &__arrowRight{
+
+            &__arrowLeft,
+            &__arrowRight {
                 width: 50px;
                 height: 50px;
                 background: #FFFFFF;
@@ -22,18 +27,20 @@
                 border-radius: 2px;
                 cursor: pointer;
             }
-            &__info{
-                h3{
+
+            &__info {
+                h3 {
                     font-family: Montserrat;
                     font-style: normal;
                     font-weight: bold;
                     font-size: 40px;
                     line-height: 130%;
                     letter-spacing: -0.01em;
-                    font-feature-settings: 'pnum' on, 'lnum' on, 'kern' off;
+                    font-feature-settings: 'pnum'on, 'lnum'on, 'kern'off;
                     color: #262626;
                 }
-                div{
+
+                div {
                     height: 32px;
                     display: flex;
                     align-items: center;
@@ -44,9 +51,10 @@
                     font-size: 20px;
                     line-height: 32px;
                     letter-spacing: -0.01em;
-                    font-feature-settings: 'cpsp' on;
+                    font-feature-settings: 'cpsp'on;
                     color: #262626;
-                    span{
+
+                    span {
                         width: 24px;
                         height: 24px;
                         display: flex;
@@ -54,7 +62,8 @@
                         margin-right: 8px;
                     }
                 }
-                :nth-child(4){
+
+                :nth-child(4) {
                     margin-bottom: 40px;
                 }
             }
@@ -62,14 +71,56 @@
     }
 }
 
-@media (max-width: 1020px){
-    .homePageHero_content__slider{
-        &--bigImg{
-            width: 70%;
-            height: 70%;
+@media (max-width: 1020px) {
+    .homePageHero_content__slider {
+        &--bigImg {
+            width: 100%;
+            height: 100%;
         }
-        &__arrowLeft, &__arrowRight{
+
+        &__arrowLeft,
+        &__arrowRight {
             display: none;
+        }
+    }
+}
+
+@media (max-width: 830px) {
+    .homePageHero {
+        &_content {
+            padding-left: 44px;
+        }
+    }
+}
+
+@media (max-width: 680px) {
+    .homePageHero {
+        &_content {
+            padding-left: 20px;
+
+            &__slider {
+                padding-top: 30px;
+                padding-bottom: 130px;
+                position: relative;
+
+                &__info {
+                    h3 {
+                        font-size: 32px;
+                    }
+
+                    div {
+                        font-size: 18px;
+                    }
+                }
+
+                &--bigImg {
+                    width: 246px;
+                    height: 296px;
+                    position: absolute;
+                    bottom: -46px;
+                    right: -60px;
+                }
+            }
         }
     }
 }

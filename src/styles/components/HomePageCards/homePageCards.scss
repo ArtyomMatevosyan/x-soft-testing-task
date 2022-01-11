@@ -1,9 +1,8 @@
-.homePageCards{
+.homePageCards {
     width: 100%;
     padding-bottom: 100px;
-    // height: 898px;
-    // background: gold;
-    &_button{
+
+    &_button {
         width: 100%;
         height: 53px;
         background: #067D7B;
@@ -20,20 +19,23 @@
         outline: none;
         cursor: pointer;
     }
-    &_upperPart{
+
+    &_upperPart {
         display: flex;
         align-items: center;
-        &__catImage{
-            img{
+
+        &__catImage {
+            img {
                 width: 100%;
                 height: 100%;
             }
         }
-        &__info{
+
+        &__info {
             width: 34.375%;
             height: 214px;
-            // background: cornflowerblue;
-            &--title{
+
+            &--title {
                 margin-top: 10px;
                 margin-bottom: 5px;
                 font-family: Montserrat;
@@ -42,55 +44,52 @@
                 font-size: 32px;
                 line-height: 130%;
                 letter-spacing: -0.01em;
-                font-feature-settings: 'cpsp' on;
+                font-feature-settings: 'cpsp'on;
                 color: #262626;
             }
-            &--text{
+
+            &--text {
                 font-family: Roboto;
                 font-style: normal;
                 font-weight: normal;
                 font-size: 18px;
                 line-height: 190%;
-                color: #484C56;                
+                color: #484C56;
             }
         }
     }
-    &_downPart{
-        // height: 248px;
+
+    &_downPart {
         display: flex;
         justify-content: space-between;
         position: relative;
-        &__info{
+
+        &__info {
             width: 24.93%;
             margin-left: 13.125%;
-            // position: absolute;
             z-index: 5;
         }
-        &__dogImage{
-            // position: absolute;
-            // right: 3.89%;
-            // width: 100%;
-            // height: 100%;
-            // margin-right: 56px;
-        }
-        &__dogImageDiv{
+
+        &__dogImageDiv {
             display: flex;
             align-items: center;
         }
     }
 }
 
-@media (max-width: 1300px){
-    .homePageCards{
-        &_upperPart{
-            &__catImage{
+@media (max-width: 1300px) {
+    .homePageCards {
+        &_upperPart {
+            &__catImage {
                 width: 59.23%;
             }
         }
-        &_downPart{
-            &__dogImageDiv{
+
+        &_downPart {
+            &__dogImageDiv {
                 width: 62.5%;
-                img{
+
+                img {
                     width: 685px;
                     height: 330px;
                 }
@@ -99,61 +98,66 @@
     }
 }
 
-@media (max-width: 1010px){
-    .homePageCards{
-        &_downPart{
+@media (max-width: 1010px) {
+    .homePageCards {
+        &_downPart {
             margin-top: 50px;
-            &__info{
+
+            &__info {
                 width: 43%;
             }
-            &__dogImageDiv{
+
+            &__dogImageDiv {
                 width: 50.5%;
-                img{
+
+                img {
                     width: 451px;
                     height: 246px;
-                    // margin-right: -70px;
-                    // right: -60px;
-                    // top: 40px;
                 }
             }
         }
     }
 }
 
-@media(max-width: 720px){
-    .homePageCards{
-        &_upperPart{
+@media(max-width: 720px) {
+    .homePageCards {
+        &_upperPart {
             flex-direction: column;
-            &__catImage{
+
+            &__catImage {
                 width: 100%;
             }
-            &__info{
+
+            &__info {
                 width: 86%;
                 height: auto;
-                &--title{
+
+                &--title {
                     font-size: 26px;
                 }
-                &--text{
+
+                &--text {
                     font-size: 15px;
                 }
             }
-        }   
-        &_downPart{
+        }
+
+        &_downPart {
             flex-direction: column-reverse;
 
             margin-top: 50px;
-            &__info{
+
+            &__info {
                 width: 86%;
                 margin-left: 6.5%;
             }
-            &__dogImageDiv{
+
+            &__dogImageDiv {
                 width: 100%;
-                img{
+
+                img {
                     width: 100%;
                     height: 45%;
-                    // height: 246px;
-                    // right: -60px;
-                    // top: 40px;
                 }
             }
         }

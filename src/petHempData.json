@@ -242,5 +242,49 @@
             "newPrice": "$ 29.95",
             "sale": "-20%"
         }
+    ],
+    "brandSlider": [
+        {
+            "id": 0,
+            "image": "./images/icons/trustpilot.svg",
+            "reviews": "18 reviews",
+            "excelentPoint": "./images/image/rating.png"
+        },
+        {
+            "id": 1,
+            "image": "./images/icons/google.svg",
+            "reviews": "24 reviews",
+            "excelentPoint": "./images/image/rating_sec.png"
+        },
+        {
+            "id": 2,
+            "image": "./images/icons/facebook.svg",
+            "reviews": "18 reviews",
+            "excelentPoint": "./images/image/rating.png"
+        },
+        {
+            "id": 3,
+            "image": "./images/icons/trustpilot.svg",
+            "reviews": "24 reviews",
+            "excelentPoint": "./images/image/rating_sec.png"
+        },
+        {
+            "id": 4,
+            "image": "./images/icons/facebook.svg",
+            "reviews": "18 reviews",
+            "excelentPoint": "./images/image/rating.png"
+        },
+        {
+            "id": 5,
+            "image": "./images/icons/google.svg",
+            "reviews": "24 reviews",
+            "excelentPoint": "./images/image/rating_sec.png"
+        },
+        {
+            "id": 6,
+            "image": "./images/icons/facebook.svg",
+            "reviews": "18 reviews",
+            "excelentPoint": "./images/image/rating.png"
+        }
     ]
 }

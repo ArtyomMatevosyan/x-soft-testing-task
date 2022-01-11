@@ -5,7 +5,7 @@ type ShopConcernCardProps = {
     image: any
 }
 
-const ShopConcernCard: FC<ShopConcernCardProps> = ({title, image}) => {
+const ShopConcernCard: FC<ShopConcernCardProps> = ({ title, image }) => {
     return (
         <div className="cards">
             <div className="cards_img">

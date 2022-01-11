@@ -1,7 +1,6 @@
 .ourTrasted{
     width: 100%;
     height: 702px;
-    // background-color: gold;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,7 +71,6 @@
 
 @media (max-width: 650px){
     .ourTrasted{
-        // height: 836px;
         padding-bottom: 80px;
         &_content{
             margin-top: 80px;
@@ -97,9 +95,6 @@
                     font-size: 13px;
                 }
             }
-            // &__sliderPart{
-            //     width: 90%;
-            // }
             &__sliderPart{
                 width: 90%;
                 max-width: 330px;

@@ -1,10 +1,16 @@
 .popularProducts{
     width: 100%;
-    margin-top: 130px;
     display: flex;
     justify-content: center;
+    margin-top: 130px;
     &_content{
         width: 88.89%;
         height: 100%;
+    }
+}
+
+@media(max-width: 830px){
+    .popularProducts{
+        margin-top: 80px;
     }
 }

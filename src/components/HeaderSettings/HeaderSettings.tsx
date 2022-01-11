@@ -7,7 +7,7 @@ import ShoppingIcon from '../../assets/icons/shopping-cart.svg';
 const HeaderSettings: FC = () => {
 
     const [isOpenBurgerMenu, setIsOpenBurgerMenu] = useState<boolean>(true)
-    
+
     return (
         <div className='hotelSettings'>
             <div className="search">

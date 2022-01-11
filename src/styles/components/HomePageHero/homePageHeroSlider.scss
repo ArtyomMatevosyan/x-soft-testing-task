@@ -1,5 +1,57 @@
-.homePageHeroSlider{
+.homePageHeroSlider {
     width: 100%;
+    max-width: 1440px;
     height: 210px;
-    background: chocolate;
+    background-color: #fff;
+    position: relative;
+
+    // margin-left: 140px;
+    .slick-dots {
+        bottom: -45px;
+
+        // left: -100px;
+        li {
+            width: 41px;
+            height: 5px;
+            background: #F1F2F7;
+
+            button {
+                &::before {
+                    content: ""
+                }
+            }
+        }
+
+        .slick-active {
+            background: #067D7B;
+        }
+    }
+
+    .slick-track {
+        margin-left: 130px;
+    }
+}
+
+@media(max-width: 580px) {
+    .homePageHeroSlider {
+        .slick-track {
+            margin-left: 25%;
+        }
+    }
+}
+
+@media(max-width: 460px) {
+    .homePageHeroSlider {
+        .slick-track {
+            margin-left: 17%;
+        }
+    }
+}
+
+@media(max-width: 365px) {
+    .homePageHeroSlider {
+        .slick-track {
+            margin-left: 10%;
+        }
+    }
 }

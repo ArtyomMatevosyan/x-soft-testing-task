@@ -1,10 +1,10 @@
 import BundleAndSaveCard from "./BundleAndSaveCard";
 import petHempData from '../../petHempData.json'
 import Slider from "react-slick";
-import { ReactComponent as SliderArrowLeft } from '../../assets/icons/sliderArrow_left.svg';
-import { ReactComponent as SliderArrowRight } from '../../assets/icons/sliderArrow_right.svg';
+import { SlickArrowLeft, SlickArrowRight } from "../utils/SliderArrowFunctions";
 
 const BundleAndSave = () => {
+
   const settings = {
     dots: true,
     infinite: false,
@@ -12,8 +12,8 @@ const BundleAndSave = () => {
     slidesToShow: 3,
     slidesToScroll: 3,
     initialSlide: 0,
-    prevArrow: <SliderArrowLeft />,
-    nextArrow: <SliderArrowRight />,
+    prevArrow: <SlickArrowLeft />,
+    nextArrow: <SlickArrowRight />,
     responsive: [
       {
         breakpoint: 820,
@@ -35,7 +35,9 @@ const BundleAndSave = () => {
       },
     ]
   };
+
   const { bundleAndSave } = petHempData;
+
   return (
     <div className="BundleAndSave">
       <div className="BundleAndSave_content">
@@ -44,8 +46,16 @@ const BundleAndSave = () => {
         </div>
         <div className="BundleAndSave_content__sliderPart">
           <Slider {...settings}>
-            {bundleAndSave.map(() => (
-              <BundleAndSaveCard />
+            {bundleAndSave.map(({ newPrice, oldPrice, company, title, image, sale }, index) => (
+              <BundleAndSaveCard
+                newPrice={newPrice}
+                oldPrice={oldPrice}
+                company={company}
+                title={title}
+                image={image}
+                sale={sale}
+                key={index}
+              />
             ))}
           </Slider>
         </div>

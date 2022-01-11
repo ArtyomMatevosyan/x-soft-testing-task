@@ -1,0 +1,45 @@
+.homePageHeroSliderCard {
+    width: 236px;
+    height: 111px;
+    background: #FFFFFF;
+    padding: 20px;
+    box-shadow: 0px 10px 16px rgba(139, 143, 167, 0.2);
+    border-radius: 2px;
+
+    &_excelentPoint {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 190%;
+        color: #262626;
+    }
+
+    &_reviews {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 25px;
+        color: #484C56;
+    }
+}
+
+@media (max-width: 770px) {
+    .homePageHeroSliderCard {
+        width: 225px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 740px) {
+    .homePageHeroSliderCard {
+        width: 236px;
+        padding: 20px;
+    }
+}

@@ -8,7 +8,6 @@ import VisaIcon from '../../assets/icons/visa.svg';
 import FacebookIcon from '../../assets/icons/facebook-icon.svg';
 import PinterestIcon from '../../assets/icons/pinterest-icon.svg'
 
-
 const Footer = () => {
     return (
         <div className="footer">

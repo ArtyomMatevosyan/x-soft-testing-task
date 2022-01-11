@@ -1,8 +1,10 @@
-.navbar{
+.navbar {
     display: flex;
-    div{
+
+    div {
         padding: 10px 15px;
-        a{
+
+        a {
             font-family: Roboto;
             font-style: normal;
             font-weight: normal;
@@ -15,8 +17,8 @@
     }
 }
 
-@media (max-width: 1190px){
-    .navbar{
+@media (max-width: 1190px) {
+    .navbar {
         display: none;
     }
 }

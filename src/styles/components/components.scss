@@ -4,27 +4,41 @@
 
 // home page
 @import './Home/homePage.scss';
+
 @import './HomePageHero/homePageHero.scss';
 @import './HomePageHero/homePageHeroSlider.scss';
+@import './HomePageHero/homePageHeroSliderCard.scss';
+
 @import './PopularProducts/popularProducts.scss';
 @import './PopularProducts/popularProductsUpperPart.scss';
 @import './PopularProducts/popularProductsSlider.scss';
 @import './PopularProducts/popularProductsCard.scss';
+
 @import './ShopConcern/shopConcern.scss';
 @import './ShopConcern/shopConcernCard.scss';
+
 @import './OurStory/ourStory.scss';
+
 @import './OurTrasted/ourTrasted.scss';
 @import './OurTrasted/ourTrastedSliderCard.scss';
+
 @import './KeyWaysPart/keyWaysPart.scss';
 @import './KeyWaysPart/keyWaysPartCard.scss';
+
 @import './HomePageCards/homePageCards.scss';
+
 @import './CustomerReviews/customerReviews.scss';
 @import './CustomerReviews/customerReviewsCard.scss';
+
 @import './Bundle&Save/bundleAndSave.scss';
 @import './Bundle&Save/bundleAndSaveCard.scss';
+
 @import './CommunityPart/communityPart.scss';
+
 @import './Subscribe/subscribe.scss';
 
 // UI
 @import './UI/Button/button.scss';
 @import './UI/Button/buttonSecondary.scss';
+@import './UI/SliderArrowLeft/sliderArrowLeft.scss';
+@import './UI/SliderArrowRight/sliderArrowRight.scss';

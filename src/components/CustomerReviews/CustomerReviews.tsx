@@ -1,22 +1,21 @@
 import CustomerReviewsCard from "./CustoomerReviewsCard";
 import petHempData from '../../petHempData.json'
 import Slider from "react-slick";
-import { ReactComponent as SliderArrowLeft } from '../../assets/icons/sliderArrow_left.svg';
-import { ReactComponent as SliderArrowRight } from '../../assets/icons/sliderArrow_right.svg';
+import { SlickArrowLeft, SlickArrowRight } from "../utils/SliderArrowFunctions";
 
 const CustomerReviews = () => {
+
     const settings = {
         dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 3,
-        variableWidth: true,
-        prevArrow: <SliderArrowLeft />,
-        nextArrow: <SliderArrowRight />,
+        prevArrow: <SlickArrowLeft />,
+        nextArrow: <SlickArrowRight />,
         responsive: [
             {
-                breakpoint: 820,
+                breakpoint: 965,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
@@ -25,7 +24,7 @@ const CustomerReviews = () => {
                 }
             },
             {
-                breakpoint: 550,
+                breakpoint: 685,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
@@ -35,7 +34,9 @@ const CustomerReviews = () => {
             },
         ]
     };
+
     const { reviews } = petHempData
+
     return (
         <div className="customerReviews">
             <div className="customerReviews_content">

@@ -1,16 +1,15 @@
 import { FC } from 'react'
 import StarsIcon from '../../assets/icons/stars.png'
 
-type CustomerReviewsCardProps={
+type CustomerReviewsCardProps = {
     title: string,
     description: string,
     video: string,
     auther: string,
     name: string,
-
 }
 
-const CustomerReviewsCard: FC<CustomerReviewsCardProps> = ({title, description,auther,name,video}) => {
+const CustomerReviewsCard: FC<CustomerReviewsCardProps> = ({ title, description, auther, name, video }) => {
     return (
         <div className="customerReviewsCard">
             <div className="customerReviewsCard_videoPart">

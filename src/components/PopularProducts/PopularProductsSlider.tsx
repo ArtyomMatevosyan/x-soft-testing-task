@@ -1,22 +1,21 @@
 import PopularProductsCard from "./PopularProductsCard";
 import petHempData from '../../petHempData.json'
 import Slider from "react-slick";
-import { ReactComponent as SliderArrowLeft } from '../../assets/icons/sliderArrow_left.svg'
-import { ReactComponent as SliderArrowRight } from '../../assets/icons/sliderArrow_right.svg'
-
+import { SlickArrowLeft, SlickArrowRight } from "../utils/SliderArrowFunctions";
 
 const PopularProductsSlider = () => {
+
     const { products } = petHempData
-    // console.log(products)
+
     const settings = {
         dots: true,
-        infinite: false,
+        infinite: true,
         speed: 500,
         slidesToShow: 4,
         slidesToScroll: 4,
         initialSlide: 0,
-        prevArrow: <SliderArrowLeft />,
-        nextArrow: <SliderArrowRight />,
+        prevArrow: <SlickArrowLeft />,
+        nextArrow: <SlickArrowRight />,
         responsive: [
             {
                 breakpoint: 1150,
@@ -35,13 +34,6 @@ const PopularProductsSlider = () => {
                     initialSlide: 2
                 }
             },
-            // {
-            //     breakpoint: 350,
-            //     settings: {
-            //         slidesToShow: 1,
-            //         slidesToScroll: 1
-            //     }
-            // }
         ]
     };
     return (

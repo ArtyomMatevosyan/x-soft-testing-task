@@ -1,0 +1,22 @@
+.sliderArrowRight {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    z-index: 10;
+    :nth-child(2) {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .sliderArrowRight {
+        right: -15px;
+        :nth-child(1) {
+            display: none;
+        }
+
+        :nth-child(2) {
+            display: block;
+        }
+    }
+}

@@ -11,11 +11,9 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        // background: chartreuse;
         &__imgPart{
             width: 34.55%;
             height: 100%;
-            // background-color: chocolate;
             position: relative;
             &__bgImage{
                 position: absolute;
@@ -113,9 +111,7 @@
 }
 @media (max-width: 530px){
     .ourStory{
-        // height: 423px;
         &_content{
-        //     width: 90%;
             &__imgPart{
                 width: 60%;
                 &__bgImage{
@@ -125,7 +121,6 @@
                 &__image{
                     width: 220px;
                     height: 282px;
-        //             margin-top: 15px;
                 }
             }
             &__info{

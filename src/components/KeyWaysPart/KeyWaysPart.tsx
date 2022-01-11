@@ -2,7 +2,9 @@ import KeyWaysPartCard from "./KeyWaysPartCard";
 import petHempData from '../../petHempData.json';
 
 const KeyWaysPart = () => {
+
     const { keyWays } = petHempData;
+
     return (
         <div className="keyWaysPart">
             <div className="keyWaysPart_content">
@@ -10,8 +12,13 @@ const KeyWaysPart = () => {
                     <p>Key Ways That CBD Can Help</p>
                 </div>
                 <div className="keyWaysPart_content__keys">
-                    {keyWays.map(({ title, image, description }) => (
-                        <KeyWaysPartCard title={title} image={image} description={description} />
+                    {keyWays.map(({ title, image, description }, index) => (
+                        <KeyWaysPartCard 
+                            title={title} 
+                            image={image} 
+                            description={description}
+                            key={index}
+                        />
                     ))}
                 </div>
             </div>

@@ -1,8 +1,6 @@
 import BundleAndSave from '../BundleAndSave/BundleAndSave'
 import CommunityPart from '../CommunityPart/CommunityPart'
 import CustomerReviews from '../CustomerReviews/CustomerReviews'
-import Footer from '../footer/Footer'
-import Header from '../header/Header'
 import HomePageCards from '../HomePageCards/HomePageCards'
 import HomePageHero from '../HomePageHero/HomePageHero'
 import KeyWaysPart from '../KeyWaysPart/KeyWaysPart'
@@ -16,7 +14,6 @@ const Home = () => {
     return (
         <div className='home'>
             <div className='home_content'>
-                <Header />
                 <HomePageHero />
                 <PopularProducts />
                 <ShopConcern />
@@ -28,7 +25,6 @@ const Home = () => {
                 <BundleAndSave />
                 <CommunityPart />
                 <Subscribe />
-                <Footer/>
             </div>
         </div>
     )

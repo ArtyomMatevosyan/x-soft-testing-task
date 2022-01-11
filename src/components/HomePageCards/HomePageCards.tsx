@@ -3,7 +3,6 @@ import DogImage from '../../assets/images/dog-image.png';
 import DropIcon from '../../assets/icons/drop-opacity.svg';
 import BigColorPickerIcon from '../../assets/icons/color-picker-big.svg';
 
-
 const HomePageCards = () => {
     return (
         <div className="homePageCards">
